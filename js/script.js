@@ -29,3 +29,33 @@ function start() {
       console.error(error);
     });
 }
+
+  function getThreeDaysForecast()
+{
+
+    // Création de l'objet apiWeather
+    const apiWeather = new API_WEATHER();
+
+    apiWeather
+    .fetchDaysForecast()
+    .then(function(response) 
+    {
+
+      // On récupère l'information principal
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
