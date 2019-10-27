@@ -27,7 +27,7 @@ class API_WEATHER{
     })
   }
   //https://openweathermap.org/forecast16
-  fetchDaysForecast() {
+  fetchThreeDaysForecast() {
     return axios
     .get(`${API_URL1}?q=${this.city}&units=metric&cnt=3&appid=${API_KEY}`, {
         crossdomain: true
